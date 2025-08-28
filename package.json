@@ -7,14 +7,14 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "postinstall": "npx playwright install"
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.22",
     "@openai/agents": "^0.0.17",
     "@openai/agents-extensions": "^0.0.17",
     "next": "15.5.2",
-    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-hook-form": "^7.62.0",

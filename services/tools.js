@@ -1,4 +1,4 @@
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 export class ToolsService {
   static async launchBrowser(url) {
